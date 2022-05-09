@@ -1,9 +1,9 @@
 package main
 
 import (
-	defaultGenerator "github.com/go-semantic-release/changelog-generator-default/pkg/generator"
-	"github.com/go-semantic-release/semantic-release/v2/pkg/generator"
-	"github.com/go-semantic-release/semantic-release/v2/pkg/plugin"
+	defaultGenerator "github.com/ted-vo/changelog-generator-default/pkg/generator"
+	"github.com/ted-vo/semantic-release/v3/pkg/generator"
+	"github.com/ted-vo/semantic-release/v3/pkg/plugin"
 )
 
 func main() {

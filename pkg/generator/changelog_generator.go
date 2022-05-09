@@ -5,8 +5,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-semantic-release/semantic-release/v2/pkg/generator"
-	"github.com/go-semantic-release/semantic-release/v2/pkg/semrel"
+	"github.com/ted-vo/semantic-release/v3/pkg/generator"
+	"github.com/ted-vo/semantic-release/v3/pkg/semrel"
 )
 
 func trimSHA(sha string) string {
