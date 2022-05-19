@@ -5,6 +5,7 @@ import (
 	"strings"
 	"time"
 
+	"github.com/apex/log"
 	"github.com/ted-vo/semantic-release/v3/pkg/generator"
 	"github.com/ted-vo/semantic-release/v3/pkg/semrel"
 )
@@ -32,6 +33,7 @@ type DefaultChangelogGenerator struct {
 }
 
 func (g *DefaultChangelogGenerator) Init(m map[string]string) error {
+	log.Infof("Init %v", m)
 	emojis := false
 
 	emojiConfig := m["emojis"]
